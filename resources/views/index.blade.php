@@ -4,23 +4,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Brick property</title>
-        <meta name="description" content="" />
+        <title>Music Label</title>
+        <meta name="description" content="Welcome to our music label!" />
 
-        <meta name="twitter:title" content="" />
-        <meta name="twitter:description" content="" />
+        <meta name="twitter:title" content="Music Label" />
+        <meta name="twitter:description" content="Welcome to our music label!" />
 
         <!-- Open Graph / Facebook -->
-        <meta property="og:title" content="Title of the project" />
-        <meta property="og:description" content="" />
+        <meta property="og:title" content="Music Record Label Website" />
+        <meta property="og:description" content="Welcome to our music label!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://github.com/PaulleDemon" />
+        <meta property="og:url" content="" />
         <!--Replace with the current website url-->
         <meta property="og:image" content="" />
 
         <link
             rel="shortcut icon"
-            href="./assets/logo.png"
+            href="{{ asset('assets/logo.png') }}"
             type="image/x-icon"
         />
         <link
@@ -29,8 +29,8 @@
         />
 
         <!-- <link rel="stylesheet" href="../../tailwind-css/tailwind-runtime.css"> -->
-        <link rel="stylesheet" href="./css/tailwind-build.css" />
-        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="stylesheet" href="{{ asset('css/tailwind-build.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/index.css') }}" />
 
         <link
             rel="stylesheet"
@@ -59,7 +59,7 @@
                 alt="Stroemer logo" class="tw-w-full tw-h-full tw-object"> -->
                 <div class="tw-h-[50px] tw-w-[50px] tw-p-[4px]">
                     <img
-                        src="./assets/logo.png"
+                        src="{{ asset('assets/logo.png') }}"
                         alt="logo"
                         class="tw-object tw-h-full tw-w-full"
                     />
@@ -124,7 +124,7 @@
             id="hero-section"
         >
             <img
-                src="./assets/images/homepage/hero-image.jpg"
+                src="{{ asset('assets/images/homepage/hero-image.jpg') }}"
                 alt=""
                 class="tw-h-full tw-w-full tw-scale-[1.3] tw-object-cover"
                 id="hero-image"
@@ -198,7 +198,7 @@
                 class="tw-flex tw-h-[350px] tw-w-[350px] tw-overflow-hidden tw-rounded-md max-md:tw-mt-[5%] max-md:tw-h-[300px] max-md:tw-w-[300px]"
             >
                 <img
-                    src="./assets/images/homepage/top-view.jpg"
+                    src="{{ asset('assets/images/homepage/top-view.jpg') }}"
                     alt=""
                     class="tw-w-full tw-object-cover"
                 />
@@ -325,7 +325,7 @@
                 >
                     <div class="tw-relative tw-h-[280px] tw-w-full tw-bg-white">
                         <img
-                            src="./assets/images/homepage/property.jpg"
+                            src="{{ asset('assets/images/homepage/property.jpg') }}"
                             alt=""
                             class="tw-h-full tw-w-full tw-object-cover"
                         />
@@ -349,7 +349,7 @@
                 >
                     <div class="tw-relative tw-h-[280px] tw-w-full tw-bg-white">
                         <img
-                            src="./assets/images/homepage/apartment.jpg"
+                            src="{{ asset('assets/images/homepage/apartment.jpg') }}"
                             alt=""
                             class="tw-h-full tw-w-full tw-object-cover"
                         />
@@ -375,7 +375,7 @@
                 >
                     <div class="tw-relative tw-h-[280px] tw-w-full tw-bg-white">
                         <img
-                            src="./assets/images/homepage/house.jpg"
+                            src="{{ asset('assets/images/homepage/house.jpg') }}"
                             alt=""
                             class="tw-h-full tw-w-full tw-object-cover"
                         />
@@ -413,7 +413,7 @@
                 class="tw-flex tw-h-[350px] tw-w-[350px] tw-overflow-hidden max-md:tw-hidden"
             >
                 <img
-                    src="./assets/images/homepage/top-view.jpg"
+                    src="{{ asset('assets/images/homepage/top-view.jpg') }}"
                     alt=""
                     class="tw-w-full tw-object-cover"
                 />
@@ -617,7 +617,7 @@
                 class="tw-flex tw-h-full tw-w-[250px] tw-flex-col tw-place-items-center tw-gap-6 max-md:tw-w-full"
             >
                 <img
-                    src="./assets/logo.png"
+                    src="{{ asset('assets/logo.png') }}"
                     alt="logo"
                     srcset=""
                     class="tw-max-h-[100px] tw-max-w-[100px]"
@@ -689,6 +689,6 @@
         referrerpolicy="no-referrer"
     ></script>
 
-    <script src="./scripts/utils.js"></script>
-    <script src="index.js"></script>
+    <script src="{{ asset('scripts/utils.js') }}"></script>
+    <script src="{{ asset('index.js') }}"></script>
 </html>
