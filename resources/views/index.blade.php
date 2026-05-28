@@ -124,7 +124,7 @@
             id="hero-section"
         >
             <img
-                src="{{ asset('assets/images/homepage/hero-image.jpg') }}"
+                src="{{ asset('assets/images/homepage/Abalo-studio-2.jpeg') }}"
                 alt=""
                 class="tw-h-full tw-w-full tw-scale-[1.3] tw-object-cover"
                 id="hero-image"
@@ -151,13 +151,13 @@
                 <h1
                     class="khula-font tw-text-xl tw-font-semibold max-md:tw-text-center max-md:tw-text-base"
                 >
-                    Real estate . Property investment . Rentals
+                    Management . Talent Building . Distribution
                 </h1>
 
                 <h2
                     class="khula-font tw-text-6xl tw-font-bold tw-uppercase max-md:tw-text-4xl"
                 >
-                    Brick property investment
+                    Music Label
                     <!-- <br class="max-md:tw-hidden">     -->
                 </h2>
                 <span
